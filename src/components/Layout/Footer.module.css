@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background-color: #383838;
+  color: rgb(234, 227, 227);
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h1 {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer h1 {
+    font-size: 14px;
+  }
+}
